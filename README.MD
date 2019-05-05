@@ -124,3 +124,12 @@ div.collapse.navbar-collapse
 .ml-auto    => automatically compute *MARGIN-LEFT* of the element      (push to the right)
 .mr-auto    => automatically compute the *MARGIN-RIGHT* of the element (push to the left)
 
+-primary
+-secondary
+-warning
+-success
+-danger
+-info
+-light
+-dark
+
