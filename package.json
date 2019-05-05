@@ -1,0 +1,14 @@
+{
+  "name": "academindbts4",
+  "version": "1.0.0",
+  "description": "13:35PM 05-05-19 -> sourceMap use to display browser pre compiled components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
