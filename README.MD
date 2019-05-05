@@ -1,6 +1,12 @@
 13:35PM 05-05-19
 -> sourceMap use to display browser pre compiled components
 
+
+<==================================================================>
+                    GRID BASICS
+<==================================================================>
+
+
 13:50PM 05-05-19
 -> available classes to be used at the GRID System of Bootstrap
 
@@ -13,9 +19,19 @@
         .col{xm, sm, md, lg, xl}-{12 col}
 
 
+<==================================================================>
+                ALIGNMENT HORIZONTALLY
+<==================================================================>
+
+
 15:04PM 05-05-19
 -> aligning the column HORIZONTALLY via its row
 row .justify-content-{start, center, end, around, between}
+
+
+<==================================================================>
+                ALIGNMENT VERTICALLY
+<==================================================================>
 
 
 15:18PM 05-05-19
@@ -29,6 +45,11 @@ row .align-items-{start, center, end, strectch}
 col .align-self-{start, center, end, stretch}
 
 
+<==================================================================>
+                    ORDERING COLUMN
+<==================================================================>
+
+
 16:45PM 05-05-2019
 -> Changing the order of the element via its column
 
@@ -40,3 +61,29 @@ OPTIONAL media-query by appending the desired device screen
 ex. 
 
     order - {xs, sm, md, lg, xl} - {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+            ~ breakpoint_name ~  - 
+
+
+<==================================================================>
+                    OFFSETTING COLUMN
+<==================================================================>
+
+
+16:59PM 05-05-19
+
+offseting a element via its column
+
+col offset-2
+           ~ number of space to be offseted on the left
+
+Optionally can be inserted using the desired breakpoint
+
+offset-{md}-2 => the offset will be applied only if the current screen size was in medium size
+
+
+
+- xs => max-width:  575.98px
+- sm => max-witdh:  767.98px
+- md => max-width:  991.98px
+- lg => max-width: 1199.98px
+- xl => 1200px and beyond
