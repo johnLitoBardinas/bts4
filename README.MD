@@ -81,9 +81,46 @@ Optionally can be inserted using the desired breakpoint
 offset-{md}-2 => the offset will be applied only if the current screen size was in medium size
 
 
-
 - xs => max-width:  575.98px
 - sm => max-witdh:  767.98px
 - md => max-width:  991.98px
 - lg => max-width: 1199.98px
 - xl => 1200px and beyond
+
+
+<==================================================================>
+                    NAVIGATION HEADER STRUCTURE
+<==================================================================>
+
+
+nav.navbar.navbar-{light}.bg-light
+                  ~ theme ~ backgroun light color
+
+a.navbar-brand{Brand_Name}
+
+ul.navbar-nav
+    li.nav-item
+        a.nav-link {Page_Link}
+
+
+// making the navigation mobile first approach
+
+nav.navbar.{navbar-expand-lg}     .navbar-{light}.bg-light
+          ~ expand at LG brkpoint  ~ theme        ~ background light color
+
+a.navbar-brand{Brand_Name}
+
+div.collapse.navbar-collapse
+    ul.navbar-nav
+        li.nav-item
+            a.nav-link {Page_Link}
+
+
+<==================================================================>
+                    UTILITIES CLASS
+<==================================================================>
+
+
+.ml-auto    => automatically compute *MARGIN-LEFT* of the element      (push to the right)
+.mr-auto    => automatically compute the *MARGIN-RIGHT* of the element (push to the left)
+
